@@ -1,0 +1,34 @@
+/* This is where you will put your own CSS. */
+/* DO NOT MODIFY bootstrap.min.css !!! */
+
+.outside-container {
+   background-color:#66ffff;
+   font-size: 1.5em;
+   position: relative;
+   margin:150px;
+   border: 5px solid red;
+   border-radius: 30px;
+   border-top-style: dotted;
+   border-right-style: solid;
+   border-bottom-style: dotted;
+   border-left-style: solid;
+}
+
+.formula-wrapper {
+   margin-left: 0 60px;
+}
+
+.panel.panel-primary {
+   border-radius: 10px;
+   border-color: #00cc99;
+   border-top-style: dotted;
+   padding-left: 10px;
+}
+
+.panel .panel-body{
+   margin:50px;
+}
+
+.panel.panel-primary .form-group {
+   padding-left: 0;
+}

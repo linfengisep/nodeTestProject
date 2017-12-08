@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+    <head>
+        <meta http-equiv="Content-type" content="text/html; charset=utf-8"/>
+        <title>ISEPIEN!</title>
+        <link href="./css/site.css" rel="stylesheet">
+        <link href="./css/bootstrap.min.css" rel="stylesheet">
+    </head>
+    <body>
+      <div class="container">
+         <div class="outside-container">
+            <div>
+               <center><h1>My Calculator</h1></center>
+            </div>
+            <div class="panel panel-primary">
+               <div class="panel-body">
+               <form class="form-inline" id="formula" method="POST">
+                   <p>Enter your formula:</p>
+                   <input class="form-control" type="text" id="formulaInput" name="formula">
+
+                  <button type="check" class="btn btn-primary" onclick="checkFormula()">Check</button>
+                  <button type="submit" class="btn btn-success" onclick="calculateResult()">Evalute</button>
+               </form>
+                  <div class="panel-body" id="postResult"></div>
+            </div>
+         </div>
+      </div>
+      <script type="text/javascript" src="/build/app.js"></script>
+      <script type="text/javascript" src="/js/index.js"></script>
+   </body>
+</html>
